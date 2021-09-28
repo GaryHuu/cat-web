@@ -1,0 +1,10 @@
+.banner-slide {
+  background-color: $white-text;
+
+  &__content {
+    @include flex();
+    .slider {
+      max-width: 902px;
+    }
+  }
+}
